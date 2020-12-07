@@ -1,0 +1,38 @@
+Internet vs. Web
+ ***Internet contains many programs(email, file share, streaming, online
+    game, etc.) and Web is one them.
+
+1960: Invention of Internet
+    Why:
+      - U.S., worried about nuclear war, realized that there is an issue
+        with their communication system; all communications will fail once
+        main communication center falls.
+      - Internet is literally net of communication with multiple connections
+        at each node. Thus, even if one fell, it wouldn't affect the entire
+        network of communication.
+      - was not available to the public.
+1990: Invention of Web
+      - created in Switzerland, where CERN(the biggest scientific equipment 
+        in the world) is located.
+      - Tim Berners-Lee : the inventor of Web with its forerunning program
+        "Enquire"
+      - info.cern.ch : the first website in the world
+      - opened up Internet to the public.
+
+=============================================================================
+How many computer are needed at least to run Internet?
+  - 2 : one is the client and the other is the server.
+
+  - client : the computer that requests the info from the server
+  - server : the computer that serves the info to the client
+
+In the case of Web program:
+  - server : web server
+  - client : web browser
+
+How to utilize server:
+  - Web server : one can download the web server on your computer
+      - can learn much about web server
+  - Web Hosting : or one can get service from a web hosting company
+      - won't learn much abt server
+
