@@ -1,0 +1,28 @@
+Data Types in JS:
+
+Primitive Data Types:
+    1. Boolean
+    2. Null : * value not defined
+    3. Undefined : type not defined
+    4. Number
+    5. String
+    6. Symbol(new in ECMAScript 6) : unique and immutable
+
+    *** Null == Undefined // true
+    *** Null === Undefined // false
+
+Object
+
+
+
+Number:
+    all arithmetic operators available
+
+String:
+    both ' and " can be used
+    property length is the length of the String
+
+    Methods:
+        toUpperCase()
+        indexOf()   # can be used for both character and substring
+        trim()  # trims out the space in the front and back

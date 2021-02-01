@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            /* block level element : use box cover the whole window width*/
+            /* h1{
+                border-width:5px;
+                border-color:red;
+                border-style: solid;
+                display:inline;
+            } */
+            /* inline element : use box only around itself*/
+            /*
+            a{
+                border-width:5px;
+                border-color:red;
+                border-style: solid;
+                display:block;
+                display:none;  doesn't display on window
+            } */
+            /* the two above can actually be set with the display property if wanted */
+            h1, a{
+                /* border-width:5px;
+                border-color:red;
+                border-style: solid; */
+                border:red 5px solid;
+                /* all in one declaration */
+                padding:20px; /* adds 20px padding btwn the content and the tag */
+                margin:0; /* margin : basically padding btwn elements */
+                width:100px; /* determines the width of the box; has higher priority than display attribute(block/inline) ig? */
+            }
+
+            /* can apply the same declarations to multiple tag types using , */
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        Hypertext Markup Language(<a href="https://www.w3schools.com/cssref/css_selectors.asp">HTML</a>) is the standard markup language for <strong>creating web pages</strong> and web applications.
+    </body>
+</html>

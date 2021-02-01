@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        // window.alert()
+        alert("This is alert. Can't do anything until you press the button");
+
+
+        // shows the result in the console
+        console.log(4 * 5); 
+    </script>
+</head>
+<body>
+    <p id="text">Hello</p>
+
+    <script>
+        // uses getElementByTagName(), getElementById(), etc. to
+        // change the content or attribute values
+        var str = document.getElementById("text")
+        str.innerHTML = "This is the new string"
+
+        // overwrites the entire html if used after all elements are loaded
+        document.write(4 * 5);
+    </script>
+</body>

@@ -35,4 +35,3 @@ How to utilize server:
       - can learn much about web server
   - Web Hosting : or one can get service from a web hosting company
       - won't learn much abt server
-
