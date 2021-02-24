@@ -38,4 +38,15 @@ var obj = Object.create(null, {             // null 프로토타입을 사용하
 
 // instead of class inheritance like in C++, JS uses prototype inheritance
 // in class inheritance, the child basically copies the parent class' definition when inheriting
-// where as in prototype inheritance, the child copies an instance, and uses that as a prototype
+// where as in prototype inheritance, the child refers to an already existing object instance
+// and calls it its prototype
+
+
+// you can also use class syntax for easier approach
+class Dog extends Object{
+    constructor(color, name, age){
+        this.color = color;
+        this.name = name;
+        this.age = age;
+    }
+}
