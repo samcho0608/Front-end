@@ -137,3 +137,42 @@ typeof undeclared // "undeclared"
     // Symbol type cannot be converted into a string
 
 [10,20] + '' // "10,20"
+
+
+
+// Explicit Casting
+
+// 1. String
+console.log(String(1));
+console.log((1).toString());
+console.log(1 + '');
+
+// 2. Number
+console.log(Number('0'));
+console.log(parseInt('0'));
+console.log(+'0');
+console.log('0' * 1);
+
+// 3. Boolean
+console.log(Boolean('x'));
+console.log(!!'x');
+
+// && and ||
+// these return the value of the operand that determined the ultimate result
+'Cat' && 'Dog' // Dog
+'Cat' || 'Dog' // Cat
+
+// This is useful when you want to check if smth is null b4 accessing the property
+var elem = null;
+console.log(elem.value); // Error raised bc value is not a property of null
+console.log(elem && elem.value); // null
+
+function getStringLength(str) {
+    str = str || '';
+    return str.length;
+}
+
+// from ES6 you can just do
+function getStringLength(str = '') {
+    return str.length;
+}
