@@ -1,0 +1,7 @@
+HTTP Methods:
+    Post    : to create a new content
+    Get     : to read a content
+    Put     : to update the entire content(overwrite)
+    Patch   : to update a part of an content(append)
+    Delete  : to delete an content
+
